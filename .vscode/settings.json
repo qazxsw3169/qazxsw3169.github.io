@@ -23,6 +23,11 @@
   // Stylint extension settings
   "stylelint.snippet": ["css", "scss"],
   "stylelint.validate": ["css", "scss"],
+  // Paste image settings for Markdown
+  "pasteImage.path": "${currentFileDir}/assets/img",
+  "pasteImage.basePath": "${workspaceRoot}",
+  "pasteImage.insertPattern": "![${imageName}](/assets/img/${imageName})",
+  "pasteImage.useDefaultName": false,
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
